@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Random Tools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section id="menu">
+  <label class="switch">
+    <input type="checkbox" id="switchGame">
+    <span class="slider"></span>
+  </label>
+</section>
+
+<section id="dice" class="game-section">
+  <h2>🎲 Dice Roll</h2>
+  <button id="rollDice">Roll!</button>
+  <button id="changeDice">Change Dice</button>
+  <div id="diceType">Dice: d6</div>
+  <div id="diceResult">🎲 Result: -</div>
+</section>
+
+<section id="wheel" class="game-section" style="display: none;">
+  <h2>🎡 Wheel of Fortune</h2>
+  <div class="wheel-container">
+    <div class="arrow">⬇️</div> <!-- Arrow -->
+    <canvas id="wheelCanvas" width="300" height="300"></canvas>
+  </div>
+  <div id="wheelResult">🎯 Result: -</div>
+  <button id="spinWheel">Spin the Wheel!</button>
+  <button id="addOption">Add Option</button>
+  <button id="removeOption">Remove Option</button>
+</section>
+
+<script src="popup.js"></script>
+</body>
+</html>
