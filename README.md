@@ -33,20 +33,11 @@ Random Utilities is a browser extension that provides two fun tools: a dice roll
 
 ## File Structure
 
-
 - **`manifest.json`**: Defines the extension's metadata and configuration.
 - **`popup.html`**: The HTML structure for the extension's popup.
 - **`popup.js`**: The JavaScript logic for the dice roller and wheel of fortune.
 - **`style.css`**: The CSS styles for the popup interface.
 - **`icon.png`**: The icon for the extension.
-
-## Screenshots
-
-### Dice Roller
-![Dice Roller Screenshot](https://via.placeholder.com/350x200?text=Dice+Roller)
-
-### Wheel of Fortune
-![Wheel of Fortune Screenshot](https://via.placeholder.com/350x200?text=Wheel+of+Fortune)
 
 ## License
 
